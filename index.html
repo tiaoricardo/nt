@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-br">	
+	<head>			
+		<meta charset="utf-8" />
+		
+		<title>Notícias de Timon</title>		
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.jcarousel.css" />			
+		<link rel="stylesheet" type="text/css" href="css/jcarousel-skin-blogs.css" />	
+		<link rel="stylesheet" type="text/css" href="css/jcarousel-skin-datas.css" />	
+		
+	</head>	
+	<body>		
+		<header>				
+			
+			<h1>
+				<a href="#">
+					<span>Notícias de Timon</span>
+				</a>
+			</h1>		
+			
+			<div class="search">
+				
+				<form action="/search" method="post">
+					<input type="text" class="search-input" /><input type="submit" value="Buscar" class="search-button" />
+				</form>
+				
+				<p class="date">Timon-MA, segunda-feira, 11 de setembro de 2013</p>
+			
+			</div>
+			
+			<div class="fb-like">
+				
+				<img src="samples/likebox.gif" alt="" />
+				
+			</div>
+			
+			<ul class="social-links">
+			
+				<li class="fb"><a href="#"><span>Facebook</span></a></li>
+				<li class="tw"><a href="#"><span>Twitter</span></a></li>
+				<li class="ytb"><a href="#"><span>YouTube</span></a></li>
+				<li class="mail"><a href="#"><span>E-mail</span></a></li>
+				<li class="rss"><a href="#"><span>RSS</span></a></li>
+			
+			</ul>
+			
+			<div class="pub pub-940x120">
+				<span>PUBLICIDADE</span>
+				
+				<img src="samples/banner_940x120.jpg" alt="" />
+				
+			</div>
+		
+			<nav>				
+				<ul>						
+					<li class="selected"><a href="#">INÍCIO</a></li>
+					<li><a href="#">CULTURA</a></li>				
+					<li><a href="#">EDUCAÇÃO</a></li>				
+					<li><a href="#">EMPREGO</a></li>	
+					<li><a href="#">ENTRETENIMENTO</a></li>	
+					<li><a href="#">ESPORTE</a></li>						
+					<li><a href="#">POLICIA</a></li>	
+					<li><a href="#">POLITICA</a></li>	
+					<li><a href="#">PROMOÇÕES</a></li>	
+					<li class="last"><a href="#">SAÚDE</a></li>	
+				</ul>	
+			</nav>
+					
+		</header>
+		
+		<div id="wrapper">
+			
+			<section id="content">
+			
+				<div class="destaques-container">
+					
+					<div class="box-tab">
+					
+						<ul class="tab-itens">
+							<li class="tmn"><a href="#" class="selected">TIMON</a></li>
+							<li class="ma"><a href="#">MARANHÃO</a></li>
+							<li class="pi"><a href="#">PIAUÍ</a></li>
+							<li class="br"><a href="#">BRASIL</a></li>
+							<li class="wld"><a href="#">MUNDO</a></li>
+						</ul>
+						
+						<div class="box-tab-detail">
+						
+							<div class="destaque">
+							
+								<h2><a href="#">Acidente entre ônibus e caminhão de gás na BR 316 acontece próximo ao Novo Tempo</a></h2>
+								
+								<div class="photo-dest">
+									
+									<a href="#">
+										<img src="samples/destaque.jpg" alt="" />
+										Comoção no enterro da moça de SP grávida que foi morta por bala perdida
+									</a>
+									
+								</div>
+								
+								<div class="txt-dest">
+									
+									<ul>	
+										<li>
+											<strong>TURISMO</strong>
+											<a href="#">Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA</a>
+										</li>
+										<li>
+											<strong>GERAL</strong>
+											<a href="#">Comoção no enterro da moça de SP grávida que foi morta por bala perdida no caminho de casa</a>
+										</li>
+										<li class="last">
+											<strong>EDUCAÇÃO</strong>
+											<a href="#">Estão abertas as inscrições para o Mestrado Profissional em Energia e Ambiente da UFMA</a>
+										</li>
+									</ul>
+									
+								</div>
+								
+								<div class="clearfix"></div>
+								
+							</div>
+						
+						</div> 
+					
+					</div>
+					
+				</div>
+				
+				<div class="pub pub-620x90">
+					<span>PUBLICIDADE</span>
+					<img src="samples/banner_620x90.jpg" alt="" />
+				</div>
+				
+				<div class="blogs-container">
+					<div class="box-tab">
+						
+						<a href="#" class="rnd-lnk blog-link">QUER TER UM BLOG?</a>
+						
+						<ul class="tab-itens">
+							<li><a href="#" class="selected">BLOGS</a></li>							
+						</ul>
+						
+						<div class="box-tab-detail">
+							
+							<div class="blog-list-container">
+								
+								<ul class="blog-list jcarousel-skin-blogs" id="jcarousel-blogs">	
+									<li>
+										<a href="#" class="img">
+											<img src="samples/blog1.jpg" alt="" />
+										</a>
+										<span class="txt">
+											<strong>CAMILA AMORIM</strong>
+											<a href="#">
+												Comoção no enterro da moça de SP grávida que foi morta por bala perdida
+											</a>
+										</span>								 		
+									</li>
+									<li>
+										<a href="#" class="img">
+											<img src="samples/blog2.jpg" alt="" />
+										</a>
+										<span class="txt">
+											<strong>JEFFERSON PROBO</strong>
+											<a href="#">
+												Incrições abertas para o Mestrado em Energia e Ambiente da UFMA
+											</a>
+										</span>										
+									</li>
+									<li>
+										<a href="#" class="img">
+											<img src="samples/blog1.jpg" alt="" />
+										</a>
+										<span class="txt">
+											<strong>CAMILA AMORIM</strong>
+											<a href="#">
+												Comoção no enterro da moça de SP grávida que foi morta por bala perdida
+											</a>
+										</span>								 		
+									</li>
+									<li>
+										<a href="#" class="img">
+											<img src="samples/blog2.jpg" alt="" />
+										</a>
+										<span class="txt">
+											<strong>JEFFERSON PROBO</strong>
+											<a href="#">
+												Incrições abertas para o Mestrado em Energia e Ambiente da UFMA
+											</a>
+										</span>										
+									</li>
+								</ul>
+								
+								<div class="clearfix"></div>
+								
+							</div>
+						
+						</div>
+					
+					</div>
+				</div>
+				
+				<div class="agenda-container">
+					<div class="box-tab">
+						
+						<ul class="tab-itens">
+							<li class="agenda"><a href="#" class="selected">AGENDA</a></li>												
+						</ul>
+						
+						<div class="box-tab-detail">
+						
+							<div class="agenda-content">
+							
+								<ul class="agenda-dates jcarousel-skin-datas" id="jcarousel-datas">
+									<li>
+										<a href="#" class="selected">
+											<strong> 04/03 </strong>SEG
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 05/03 </strong>TER
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 06/03 </strong>QUA
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 07/03 </strong>QUI
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 08/03 </strong>SEX
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 09/03 </strong>SAB
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 10/03 </strong>DOM
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 11/03 </strong>SEG
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 12/03 </strong>TER
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 13/03 </strong>QUA
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 07/03 </strong>QUI
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 08/03 </strong>SEX
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 09/03 </strong>SAB
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 10/03 </strong>DOM
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 11/03 </strong>SEG
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 12/03 </strong>TER
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<strong> 13/03 </strong>QUA
+										</a>
+									</li>
+								</ul>
+								
+								<br clear="all" />
+								
+								<div class="container-events">
+									
+									<div class="event">
+										<a href="#" class="event-img">
+											<img src="samples/evento1.jpg" alt="" />
+										</a>
+										<div class="event-txt">
+											<a href="#"><strong>SERTÃO DE DENTRO</strong></a>
+											<span>A partir das 22h com animação da banda Triballes e Leyliane Monteiro.</span>
+										</div>
+									</div>
+									
+									<div class="event last">
+										<a href="#" class="event-img">
+											<img src="samples/evento2.jpg" alt="" />
+										</a>
+										<div class="event-txt">
+											<a href="#"><strong>UNIVERSO PARALELO</strong></a>
+											<span>Conec-cia e Bicho Q-balança agitam a galera de Timon a partir das 22h.</span>
+										</div>
+									</div>
+									<br clear="all" />
+								</div>
+							
+							</div>
+							
+							<div class="clearfix"></div>
+							
+						</div>
+					
+					</div>
+				</div>
+				
+				<div class="pub pub-620x90">
+					<span>PUBLICIDADE</span>
+					<img src="samples/banner_620x90.jpg" alt="" />
+				</div>
+				
+				<div class="fotos-container">
+					<div class="box-tab">
+						
+						<ul class="tab-itens">							
+							<li class="fotos"><a href="#" class="selected">FOTOS</a></li>							
+						</ul>
+						
+						<div class="box-tab-detail">
+						
+							<div class="fotos-content">
+							
+								<ul class="photo-list">	
+									<li>
+										<span class="data">10/03/2013</span>
+										<span class="quant">40 fotos</span>
+										<br clear="all" />
+										<a href="#" class="img">
+											<img src="samples/foto1.jpg" alt="" />
+											Confiram as fotos do Bloco D'Pileque no Zé Pereira de Timon 2013
+										</a>																	 		
+									</li>	
+									<li>
+										<span class="data">10/03/2013</span>
+										<span class="quant">40 fotos</span>
+										<br clear="all" />
+										<a href="#" class="img">
+											<img src="samples/foto2.jpg" alt="" />
+											Cláudia Leitte faz a festa no carnaval da Bahia em Salvador
+										</a>																	 		
+									</li>	
+									<li class="last">
+										<span class="data">10/03/2013</span>
+										<span class="quant">40 fotos</span>
+										<br clear="all" />
+										<a href="#" class="img">
+											<img src="samples/foto3.jpg" alt="" />
+											Bruna Marquezine e Neymar deixa festa as 6h da manhã
+										</a>																	 		
+									</li>			
+								</ul>
+								
+								<br clear="all" />
+								
+								<div class="clearfix"></div>
+							
+							</div>
+							
+						</div>
+					
+					</div>
+				</div>
+									
+			</section>
+			
+			<aside id="right">
+			
+				<div class="pub pub-300x250">
+					<a href="#" class="rnd-lnk">ANUNCIE AQUI</a>
+					<span>PUBLICIDADE</span>
+					<img src="samples/banner_300x250.jpg" alt="" />
+				</div>
+				
+				<br />
+				
+				
+				<div class="box-tab last-news">
+					
+					<h2 class="tab-header">ÚLTIMAS NOTÍCIAS</h2>
+					
+					<div class="box-tab-detail">
+						
+						<ul class="last-news">
+							<li>
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA</a>
+							</li>
+							<li class="pic">
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">	
+									<img src="samples/foto_100x75.jpg" alt="" />
+									Comoção no enterro da moça de SP grávida que foi morta por bala perdida no caminho de casa
+								</a>
+							</li>
+							<li>
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA</a>
+							</li>
+							<li class="pic">
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">	
+									<img src="samples/foto_100x75.jpg" alt="" />
+									Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA
+								</a>
+							</li>
+							<li>
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA</a>
+							</li>
+							<li class="pic">
+								<span>11/01/2013 - 19h33</span>
+								<a href="#">	
+									<img src="samples/foto_100x75.jpg" alt="" />
+									Ministério do Turismo destina R$ 30 milhões para obras de infraestrutura turística no MA
+								</a>
+							</li>
+							<li class="all-news-button">
+								<a href="#"><span>VEJA TODAS AS NOTÍCIAS</span></a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				
+				<div class="pub pub-300x250">
+					
+					<span>PUBLICIDADE</span>
+					<img src="samples/banner_300x250.jpg" alt="" />
+				</div>
+				
+			</aside>
+							
+		</div>	
+							
+		<footer>
+			
+			<div class="footer-container">
+				
+				<div class="about-nt">
+					
+					<h3 class="footer-header">Sobre Timon</h3>
+					
+					<ul class="tick-list">
+						<li class="sided"><a href="#">História</a></li>
+						<li class="sided last"><a href="#">Geografia</a></li>
+						<li class="sided"><a href="#">Cultura</a></li>
+						<li class="sided last"><a href="#">Economia</a></li>
+					</ul>
+						
+					<br clear="all" />
+					
+					<h3 class="footer-header sided">Serviços</h3>
+					
+					<ul class="tick-list">
+						<li><a href="#">Entre em contato conosco</a></li>
+						<li><a href="#">Saiba como anunciar</a></li>						
+					</ul>
+				
+				</div>
+				
+				<div class="profiles-nt">
+				
+					<h3 class="footer-header">Perfis em Redes Sociais</h3>
+					
+					<div class="social-links-footer">
+					
+						<ul class="social-links">
+				
+							<li class="fb"><a href="#"><span>Facebook</span></a></li>
+							<li class="tw"><a href="#"><span>Twitter</span></a></li>
+							<li class="ytb"><a href="#"><span>YouTube</span></a></li>
+							<li class="mail"><a href="#"><span>E-mail</span></a></li>
+							<li class="rss"><a href="#"><span>RSS</span></a></li>
+						
+						</ul>
+						
+					</div>
+					
+					<h4>noticiasdetimon@gmail.com</h4> 
+					
+				</div>
+				
+				<div class="partners-nt">
+				
+					<h3 class="footer-header">Links Parceiros</h3>
+					
+					<a href="#">Aneís de Formatura</a> - 
+					<a href="#">Baixar Filmes</a> - 
+					<a href="#">Portal CDP</a> - 
+					<a href="#">Mundi Tecnologia</a> - 
+					<a href="#">Aneís de Formatura</a> - 
+					<a href="#">Baixar Filmes</a> - 
+					<a href="#">Portal CDP</a> - 
+					<a href="#">Mundi Tecnologia</a> - 
+					<a href="#">Aneís de Formatura</a> - 
+					<a href="#">Baixar Filmes</a> - 
+					<a href="#">Portal CDP</a> - 
+					<a href="#">Mundi Tecnologia</a> - 
+					<a href="#">Aneís de Formatura</a> - 
+					<a href="#">Baixar Filmes</a> - 
+					<a href="#">Portal CDP</a> - 
+					<a href="#">Mundi Tecnologia</a> - 
+					<a href="#">Aneís de Formatura</a> - 
+					<a href="#">Baixar Filmes</a> - 
+					<a href="#">Portal CDP</a> - 
+					<a href="#">Mundi Tecnologia</a>
+					
+				</div>
+				
+				<br clear="all" />
+				
+			</div>
+			
+			
+			
+			<div class="mng-by">
+				&copy; Todos os direitos reservados 2010-2013
+			</div>
+						
+		</footer>
+		
+		<script type="text/javascript" src="js/jquery.js"></script>		
+		<script type="text/javascript" src="js/jquery-carousel.js"></script>		
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+								
+				 $("#jcarousel-blogs, #jcarousel-datas").jcarousel();
+			
+			});
+		</script>
+			
+	</body>
+</html>

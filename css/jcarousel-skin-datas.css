@@ -1,0 +1,93 @@
+.jcarousel-skin-datas .jcarousel-container {
+   
+   height:45px;
+   width: 527px !important;
+   
+}
+
+.jcarousel-skin-datas .jcarousel-container-horizontal {
+	
+    width: 530px;
+    padding: 0px 26px;    
+    
+}
+
+.jcarousel-skin-datas .jcarousel-clip-horizontal {
+    width:  530px;
+    height: 45px;
+    
+}
+
+.jcarousel-skin-datas .jcarousel-item {
+    
+    width: 49px;
+    height: 45px;
+    
+}
+
+
+.jcarousel-skin-datas .jcarousel-item-horizontal {
+    
+    margin-right: 4px;
+     
+}
+
+
+.jcarousel-skin-datas .jcarousel-item-placeholder {
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-datas .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    width: 20px;
+    height: 40px;
+    cursor: pointer;
+    background: url(../imgs/bg-carousel-datas.png) transparent no-repeat 0 0;
+    
+}
+
+.jcarousel-skin-datas .jcarousel-next-horizontal:hover {
+    background-position: -20px 0;
+}
+
+.jcarousel-skin-datas .jcarousel-next-horizontal:active {
+    background-position: -40px 0;
+}
+
+.jcarousel-skin-datas .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-datas .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-datas .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -60px 0;
+}
+
+.jcarousel-skin-datas .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 40px;
+    cursor: pointer;
+    background: url(../imgs/bg-carousel-datas.png) transparent no-repeat 0 -40px;
+    
+}
+
+.jcarousel-skin-datas .jcarousel-prev-horizontal:hover {
+    background-position: -20px -40px;
+}
+
+.jcarousel-skin-datas .jcarousel-prev-horizontal:active {
+    background-position: -40px -40px;
+}
+
+.jcarousel-skin-datas .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-datas .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-datas .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -60px -40px;
+}
+
